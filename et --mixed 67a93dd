@@ -1,0 +1,18 @@
+[33m098439d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: pull --tags origin main: Fast-forward
+[33m24aefad[m HEAD@{1}: reset: moving to HEAD~1
+[33m67a93dd[m HEAD@{2}: reset: moving to HEAD
+[33m67a93dd[m HEAD@{3}: reset: moving to HEAD
+[33m67a93dd[m HEAD@{4}: commit: diseño de vistas levemente mejorado
+[33m24aefad[m HEAD@{5}: checkout: moving from main to main
+[33m24aefad[m HEAD@{6}: pull origin main: Merge made by the 'ort' strategy.
+[33m656bbcf[m HEAD@{7}: commit: migraciones
+[33mbb1c832[m HEAD@{8}: checkout: moving from nueva-funcionalidad to main
+[33m056ac4a[m[33m ([m[1;32mnueva-funcionalidad[m[33m)[m HEAD@{9}: commit: Mensaje de commit
+[33me2b0076[m HEAD@{10}: commit: Agregados archivos de inicio para la nueva funcionalidad
+[33mbb1c832[m HEAD@{11}: checkout: moving from main to nueva-funcionalidad
+[33mbb1c832[m HEAD@{12}: commit: ruta de vistas-admin
+[33mab0cd1f[m HEAD@{13}: pull: Merge made by the 'ort' strategy.
+[33m515b04c[m HEAD@{14}: commit: vistas de administrador
+[33m815ef90[m HEAD@{15}: commit: .env
+[33m2919ad2[m HEAD@{16}: Branch: renamed refs/heads/master to refs/heads/main
+[33m2919ad2[m HEAD@{18}: commit (initial): Creacion de proyecto manzanas
