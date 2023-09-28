@@ -13,10 +13,10 @@ class httpEstablecimientos extends Controller
      */
     public function index()
     {   
-        $establecimiento = Establecimiento::all();
-        $servicio = Servicio::all();
-
-        return view('servicios.index', compact('categorias', 'establecimiento') ,['servicio' => $servicio]);
+        // $establecimiento = Establecimiento::get();
+        // $servicio = Servicio::all();
+        // return view('establecimiento.index', compact('servicio') ,['establecimiento' => $establecimiento]);
+    return 'retorno index';
     }
 
     /**

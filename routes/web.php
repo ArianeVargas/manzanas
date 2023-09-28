@@ -4,6 +4,8 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\httpCuidadorasController;
 use App\Http\Controllers\httpCategoriaServicios;
 use App\Http\Controllers\httpServicios;
+use App\Http\Controllers\establecimiento;
+
 
 
 
@@ -32,7 +34,7 @@ Route::get('/admin/perfil', [AdminController::class, 'perfil'])->name('admin.per
 Route::get('/admin/registroMunicipio', [AdminController::class, 'registerMunicipio'])->name('admin.registroMunicipio');
 Route::get('/admin/registroManzana', [AdminController::class, 'registerManzana'])->name('admin.registroManzana');
 Route::get('/admin/registroServicio', [AdminController::class, 'registerServicio'])->name('admin.registroServicio');
-Route::get('/admin/registroEstablecimiento', [AdminController::class, 'registerEstablecimiento'])->name('admin.registroEstablecimiento');
+// Route::get('/admin/registroEstablecimiento', [AdminController::class, 'registerEstablecimiento'])->name('admin.registroEstablecimiento');
 Route::get('/ir/formulario', [AdminController::class , 'registroformulario'])->name('registro.formulario');
 Route::get('/admin/edit/{id}', [AdminController::class , 'filtrarEdit'])->name('info.editar');
 // -------------------------------------------------------------------GET DE CUIDADORAS
@@ -43,6 +45,10 @@ Route::get('/cuidadoras/index' , [httpCuidadorasController::class , 'index'])->n
 Route::get('/categoria/index' , [httpCategoriaServicios::class , 'index'])->name('categoria.index');
 //servicios
 Route::get('/servicios/index' , [httpServicios::class , 'index'])->name('servicio.index');
+
+//establecimientos
+
+Route::get('/establecimiento/index', [httpCategoriaServicios::class , 'index'])->name('establecimiento.index');
 
 // --------------------------POST  
 //MUNICIPIO

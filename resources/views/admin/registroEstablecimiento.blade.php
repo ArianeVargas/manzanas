@@ -1,4 +1,4 @@
-@extends('layouts.app')
+{{-- @extends('layouts.app')
 @extends('components.layouts.formEstable')
 
 @section('content')
@@ -109,4 +109,4 @@
             </main>
         </div>
     </div>
-@endsection
+@endsection --}}

@@ -32,7 +32,7 @@
             </div>
         </nav> --}}
 
-        @include('components.layouts.barraNav')
+        @include('layouts.barraNav')
 
 
 
