@@ -38,71 +38,71 @@
 
 <main class="col-md-9 ms-sm-auto col-lg-11 px-md-4">
 
-    <!-- Botón para abrir el modal -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#crearProductoModal" >
-        {{-- data-url="{{ route('guardar.formulario') --}}
-        Crear Municipio
-    </button>
+                <div class="content">
+                    <h1>Municipios</h1>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Agregar municipio
+                    </button>
+                 </div>
+                <div class="table">
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Id</th>
+                                <th scope="col">Nombre</th>
+                                <th scope="col">Localidad</th>
+                                <th scope="col">Direccion</th>
+                                <th scope="col">acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>
+                                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        editar
+                                    </button>
 
+                                    <button type="button" class="btn btn-danger" >
+                                        eliminar
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                                <td>
+                                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        editar
+                                    </button>
 
+                                    <button type="button" class="btn btn-danger" >
+                                        eliminar
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                                <td>
+                                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        editar
+                                    </button>
 
-
-<div class="table-responsive">
-    <table class="table">
-        <thead class="thead-dark">
-            <tr>
-                <th scope="col">Id</th>
-                <th scope="col">Nombre</th>
-                <th scope="col">Opciones</th>
-
-
-            </tr>
-        </thead>
-        <tbody>
-        @foreach ($municipios as $municipio)
-            <tr>
-                <td>{{ $municipio->id }}</td>
-                <td>{{ $municipio->nombre }}</td>
-                <td> 
-                    <td><a href="{{route('info.editar', $municipio->id)}}" class="edit"   >✏</a></td>
-                </td>
-            </tr>
-        @endforeach
-        </tbody>
-
-
-
-    </table>
-
-
-
-
-
-
-
-    </ul>
-
-    <!-- Modal para crear Municipio -->
-    <div class="modal fade" id="crearProductoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Crear Nuevo municipio</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form action="{{route('guardar.formulario')}}" method="POST">
-                        @csrf
-                        <div class="mb-3">
-                            <label for="nombre" class="form-label">Nombre del Municipio</label>
-                            <input type="text" class="form-control" id="nombre" name="nombre" required>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                            <button type="submit" class="btn btn-primary">Guardar Municipio</button>
-                        </div>
-                    </form>
+                                    <button type="button" class="btn btn-danger" >
+                                        eliminar
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
