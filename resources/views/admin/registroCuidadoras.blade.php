@@ -39,7 +39,7 @@
 
 
             <!-- Contenido principal -->
-            <main class="col-md-3 ms-sm-auto col-lg-11 px-md-1">
+            <main class="col-md-3 ms-sm-auto col-lg-12 px-md-1">
 
                 <div class="content">
                     <h1>Cuidadoras</h1>
@@ -47,7 +47,7 @@
                         Registrar Cuidadoras
                     </button>
                  </div>
-                <div class="table">
+                <div class="table">                        
                     <table class="table">
                         <thead class="thead-dark">
                             <tr>
@@ -59,6 +59,7 @@
                                 <th scope="col">Correo</th>
                                 <th scope="col">Ciudad</th>
                                 <th scope="col">Direccion</th>
+                                <th scope="col">Ocupacion</th>
                                 <th scope="col">Servicio seleccionado</th>
                                 <th scope="col">Acciones</th>
                             </tr>
@@ -74,25 +75,6 @@
                                 <td>d</td>
                                 <td>e</td>
                                 <td>e</td>
-                                <td>
-                                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                        editar
-                                    </button>
-
-                                    <button type="button" class="btn btn-danger" >
-                                        eliminar
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>a</td>
-                                <td>b</td>
-                                <td>c</td>
-                                <td>d</td>
-                                <td>e</td>
                                 <td>e</td>
                                 <td>
                                     <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -104,27 +86,7 @@
                                     </button>
                                 </td>
                             </tr>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>a</td>
-                                <td>b</td>
-                                <td>c</td>
-                                <td>d</td>
-                                <td>e</td>
-                                <td>e</td>
-                                <td>
-                                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                        editar
-                                    </button>
-
-                                    <button type="button" class="btn btn-danger" >
-                                        Eliminar
-                                    </button>
-                                </td>
-                            </tr>
-
+                        
                         </tbody>
                     </table>
                 </div>
